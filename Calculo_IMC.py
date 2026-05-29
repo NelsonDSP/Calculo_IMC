@@ -1,4 +1,4 @@
-# Sprint 1 - Calculadora de IMC
+# Sprint 2 - Classificação do IMC
 
 peso = float(input("Introduza o seu peso (kg): "))
 altura = float(input("Introduza a sua altura (cm): "))
@@ -17,4 +17,3 @@ elif imc >= 18.5 and imc < 25:
 else:
     print("Fora do peso normal")
     
-# Fim do Sprint 1
