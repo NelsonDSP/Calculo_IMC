@@ -1,4 +1,4 @@
-#A fórmula do IMC é: IMC = peso / (altura_em_metros * altura_em_metros)
+# Sprint 1 - Calculadora de IMC
 
 peso = float(input("Introduza o seu peso (kg): "))
 altura = float(input("Introduza a sua altura (cm): "))
