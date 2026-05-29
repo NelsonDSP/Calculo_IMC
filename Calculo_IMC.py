@@ -1,4 +1,4 @@
-# Sprint 2 - Classificação do IMC
+# Sprint 3 - Histórico do IMC
 
 def calcular_imc(peso, altura):
     altura_metros = altura / 100
@@ -24,4 +24,3 @@ classificacao = classificar_imc(imc)
 print(f"IMC: {imc}")
 print(classificacao)
 
-# Fim do Sprint 2
