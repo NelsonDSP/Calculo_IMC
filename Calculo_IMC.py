@@ -35,3 +35,19 @@ while True:
         if peso <= 0 or altura <= 0:
             print("Erro: Peso e altura devem ser valores positivos!\n")
             continue
+        imc = calcular_imc(peso, altura)
+        classificacao = classificar_imc(imc)
+        
+        historico_imcs.append(imc)
+        historico_classificacoes.append(classificacao)
+        
+        print(f"IMC: {imc}")
+        print(classificacao)
+        
+        continuar = input("\nDeseja continuar? (s/n): ").lower()
+        if continuar != 's':
+            break
+    
+    except ValueError:
+        print("Erro: Insira valores válidos!\n")
+ 
