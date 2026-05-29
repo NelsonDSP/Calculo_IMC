@@ -16,3 +16,5 @@ elif imc >= 18.5 and imc < 25:
     print("Peso normal")
 else:
     print("Fora do peso normal")
+    
+# Fim do Sprint 1
