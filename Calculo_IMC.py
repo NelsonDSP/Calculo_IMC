@@ -24,3 +24,14 @@ classificacao = classificar_imc(imc)
 print(f"IMC: {imc}")
 print(classificacao)
 
+historico_imcs = []
+historico_classificacoes = []
+ 
+while True:
+    try:
+        peso = float(input("Introduza o seu peso (kg): "))
+        altura = float(input("Introduza a sua altura (cm): "))
+        
+        if peso <= 0 or altura <= 0:
+            print("Erro: Peso e altura devem ser valores positivos!\n")
+            continue
