@@ -17,3 +17,9 @@ def classificar_imc(imc):
     
 peso = float(input("Introduza o seu peso (kg): "))
 altura = float(input("Introduza a sua altura (cm): "))
+
+imc = calcular_imc(peso, altura)
+classificacao = classificar_imc(imc)
+ 
+print(f"IMC: {imc}")
+print(classificacao)
