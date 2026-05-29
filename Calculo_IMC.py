@@ -55,6 +55,8 @@ media_imc = round(sum(historico_imcs) / len(historico_imcs), 2)
 classificacao_frequente = max(set(historico_classificacoes), key=historico_classificacoes.count)
  
 print("\n Histórico dE IMC")
-print(f"Total de consultas: {len(historico_imcs)}")
+print(f"\nTotal de consultas: {len(historico_imcs)}")
 print(f"Média de IMC: {media_imc}")
-print(f"Classificação mais frequente: {classificacao_frequente}")
+print(f"Classificação mais frequente: {classificacao_frequente}\n")
+
+# Fim do Sprint 3
